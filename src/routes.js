@@ -12,7 +12,7 @@ function Routes() {
             <Switch>
                 <Route path="/" exact component={TaskList} />
                 <Route path="/register" component={Register} />
-                <Route path="/update" component={Update} />
+                <Route path="/update/:id" component={Update} />
             </Switch>
         </BrowserRouter>
         )
